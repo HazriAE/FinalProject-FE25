@@ -241,7 +241,7 @@ body {
 }
 
 .myapp .project-list {
-  padding: 40px;
+  padding: 20px;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(min(400px, 100%), 1fr));
   gap: 25px;
