@@ -2,8 +2,8 @@
 
 :root {
   --primary: #900;
-  --enable-shadows: 1; /* 1 = true, 0 = false (convention) */
-  --prefix: "mo-"; /* You can store this as a string */
+  --enable-shadows: 1; 
+  --prefix: "mo-"; 
 }
 body {
   background-color: #181733;
@@ -59,9 +59,7 @@ body {
 .myapp .project-heading {
   font-family: "Bebas Neue", sans-serif;
   font-weight: 400;
-  font-style: normal;
   text-align: center;
-  font-size: 1.3rem;
 }
 
 .myapp .hero-container {
@@ -82,7 +80,6 @@ body {
 }
 
 .myapp .hero-name {
-  font-size: 1.8rem;
   color: #fdc52c;
 }
 
@@ -124,7 +121,7 @@ body {
 
 .myapp main {
   margin: 0 auto;
-  padding: 40px;
+  padding: 20px;
   max-width: 1500px;
 }
 
@@ -163,6 +160,7 @@ body {
   margin-left: 10px;
   font-family: "Bebas Neue";
   letter-spacing: 0.1rem;
+  text-align: justify;
 }
 
 .myapp .biografi-photo-text p {
@@ -187,6 +185,8 @@ body {
   color: #061bb2;
   flex-basis: 200px;
 }
+
+/* SKILL SECTION  */
 
 .myapp .skill-container {
   padding: 40px;
@@ -214,13 +214,18 @@ body {
   border-radius: 20px;
 }
 
+.carousel-item {
+  max-height: 320px;
+  max-width: 500px;
+}
+
 /* PROJECT SECTION */
 
 .myapp .my-project {
   background-color: #0E0D2D;
   border: 2px solid #302f59;
   margin: 0px auto;
-  padding: 40px;
+  padding: 20px;
   max-width: 1400px;
   color: #ffffff;
 }
@@ -236,12 +241,8 @@ body {
   max-height: 500px;
   margin: 0px auto;
 }
-.myapp .project-heading {
-  font-size: 1.8rem;
-}
 
 .myapp .project-list {
-  padding: 20px;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(min(400px, 100%), 1fr));
   gap: 25px;
@@ -268,6 +269,7 @@ body {
   margin: 20px;
   flex-basis: 220px;
   flex-grow: 1;
+  text-align: justify;
 }
 
 
@@ -338,7 +340,6 @@ body {
 
 .myapp .btn-custom span {
   color: white;
-  font-size: 18px;
   font-weight: 100;
 }
 
